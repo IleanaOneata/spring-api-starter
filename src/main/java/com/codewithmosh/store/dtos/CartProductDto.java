@@ -9,9 +9,9 @@ import java.math.BigDecimal;
  */
 
 @Data
-public class CartItemDto {
+public class CartProductDto {
 
-    private CartProductDto product;
-    private int quantity;
-    private BigDecimal totalPrice;
+    private Long id;
+    private String name;
+    private BigDecimal price;
 }
